@@ -20,8 +20,12 @@ public class PlayerHealth : MonoBehaviour
 
     Color normalColour;
 
+    public Scene activeScene;
+
     void Start()
     {
+        activeScene = SceneManager.GetActiveScene();
+
         normalColour = healthBar.color;
         currentHealth = maxHealth;
 
@@ -90,7 +94,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(activeScene.name);
         Debug.Log("Player died");
     }
 
