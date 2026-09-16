@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6330185066440342037
+--- !u!114 &-3661847294227529870
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FinalEnemy
+  m_Name: GlassMat
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 2100000, guid: d87bda58bec07594b898227e1244f274, type: 2}
   m_ModifiedSerializedProperties: 0
@@ -39,10 +39,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - _Smoothness: 0.933
+    m_Floats: []
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.97351444, b: 0, a: 1}
-    - _Color: {r: 1, g: 0.9735144, b: 0, a: 1}
+    - _BaseColor: {r: 0.5801887, g: 0.94001615, b: 1, a: 1}
+    - _Color: {r: 0.58018863, g: 0.94001615, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
