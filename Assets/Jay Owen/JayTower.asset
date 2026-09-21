@@ -15,5 +15,5 @@ MonoBehaviour:
   sceneName: JayTower
   displayName: The Tower
   creatorName: By Jay
-  levelPrefab: {fileID: 5115060657782514083, guid: f6ca98d3746f205478cc70141f533645, type: 3}
-  previewScale: {x: 0.1, y: 0.1, z: 0.1}
+  levelPrefab: {fileID: 8054988171591506570, guid: c10776ad4563fe348bb9f6b67414d0fe, type: 3}
+  previewScale: {x: 0.05, y: 0.05, z: 0.05}
